@@ -6,16 +6,17 @@ import urllib.request
 import json
 from urllib import error
 from utils.log import Logger
+# from interval import Interval
 
 
 # 免费代理IP不能保证永久有效，如果不能用可以更新
 # http://www.goubanjia.com/
 proxy_list = [
-    # '183.95.80.102:8080', 20
+    '183.95.80.102:8080',
     "123.160.31.71:8080",
     "115.231.128.79:8080",
     "166.111.77.32:80",
-    # '43.240.138.31:8080', 25
+    '43.240.138.31:8080',
     "218.201.98.196:3128",
 ]
 
@@ -43,8 +44,11 @@ EVENT_NAME = "buy_coin"
 # 间隔
 INTERVAL = 5
 
-BITCOIN_PRICE_THRESHOLD: int = 15000  # Set this to whatever you like
-BITCOIN_PRICE_RATIO = 0.5  # Set this to whatever you like
+BITCOIN_PRICE_THRESHOLD: int = 15000
+PRICE_RATIO_DOWN = 0.5
+PRICE_RATIO_UP = 0.9
+
+
 # dog
 coin_dog = "0xba2ae424d960c26247dd6c32edc70b295c744c43_USD"
 # tdog
@@ -61,9 +65,6 @@ def get_latest_coin_price(url) -> int:
     msg = "URLError: {}-{}\n{}"
 
     try:
-        # print(datetime.now().strftime('%Y.%m.%d %H:%M:%S'), "---->111")
-        # print(proxy, header)
-
         # 基于选择的IP构建连接
         urlhandle = urllib.request.ProxyHandler({"http": proxy})
         opener = urllib.request.build_opener(urlhandle)
@@ -88,6 +89,7 @@ def get_latest_coin_price(url) -> int:
         elif hasattr(e, "reason"):
             msg = msg.format(proxy, header, e.reason)
 
+        logger.warning(msg)
         post_ifttt_webhook(EVENT_NAME, "❌", msg)
         return 0
 
@@ -102,27 +104,22 @@ def post_ifttt_webhook(event, value1, value2):
     # print(res, ifttt_event_url)
 
 
-def format_bitcoin_history(bitcoin_history):
+def format_coin_history(coin_history):
     rows = []
-    for bitcoin_price in bitcoin_history:
-        # Formats the date into a string: '24.02.2018 15:09'
-        date = bitcoin_price["date"].strftime("%d.%m.%Y %H:%M")
-        price = bitcoin_price["price"]
-        tPrice = bitcoin_price["tPrice"]
-        ratio = bitcoin_price["ratio"]
-        # <b> (bold) tag creates bolded text
-        # 24.02.2018 15:09: $<b>10123.4</b>
-        row = "{}: $<b>{}</b>{}-{}".format(date, price, tPrice, ratio)
-        rows.append(row)
-
+    for item in coin_history:
+        rows.append(format_coin(item))
     # Use a <br> (break) tag to create a new line
     # Join the rows delimited by <br> tag: row1<br>row2<br>row3
-    return "<br>".join(rows)
+    return "\n".join(rows)
+
+def format_coin(args):
+    # YYYY.MM.DD HH:MM:SS tbtc / btc = ratio ≤≥ tcoin / coin = ratio
+    return "{} © \n{} / {} = {} ≤≥ {} / {} = {} ".format(args['date'], args['tbtc'], args['btc'], args['ratio'], 
+    args['f_tcoin'], args['f_coin'], args['f_ratio'])
 
 
-
-def main():
-    bitcoin_history = []
+def ifttt():
+    coin_history = []
     num = 441660
 
     while True:
@@ -136,7 +133,7 @@ def main():
         url_btc = BITCOIN_API_URL.format(coin_btc, start, end)
         url_tbtc = BITCOIN_API_URL.format(coin_tbtc, start, end)
 
-        date = datetime.now().strftime("%Y.%m.%d %H:%M:%S")
+        date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         price_base = get_latest_coin_price(url_base)
         price_t = get_latest_coin_price(url_t)
@@ -149,32 +146,51 @@ def main():
         ratio_t = round(price_t / price_base, 2)
         ratio_btc = round(price_tbtc / price_btc, 2)
 
-        obj = {"date": date, "price": price_base, "tPrice": price_t, "ratio": ratio_t}
-        logger.info(obj)
+        args = {
+            "date": date, "btc": price_btc, "tbtc": price_tbtc, "ratio": ratio_btc,
+            "f_coin": price_base, "f_tcoin": price_t, "f_ratio": ratio_t
+        }
 
-        msg = "{} btc:{}-{}-{} t: {}-{}-{}".format(
-            date, price_btc, price_tbtc, ratio_btc, price_base, price_t, ratio_t
-        )
+        logger.info(args)
 
-        bitcoin_history.append(
-            {"date": date, "price": price_base, "tPrice": price_t, "ratio": ratio_t}
-        )
+        # Judge tbtc
+        if price_tbtc < BITCOIN_PRICE_THRESHOLD or ratio_btc < PRICE_RATIO_DOWN or ratio_btc > PRICE_RATIO_UP:
+            post_ifttt_webhook(EVENT_NAME, "© tbtc √√√√", format_coin(args))
+            coin_history.append(args)
+        # τ 浮出水面
+        if ratio_t > PRICE_RATIO_UP or ratio_t < PRICE_RATIO_DOWN:
+            post_ifttt_webhook(EVENT_NAME, "© τ √√", format_coin(args))
 
-        # Send an emergency notification
-        if price_btc < BITCOIN_PRICE_THRESHOLD or ratio_btc < BITCOIN_PRICE_RATIO:
-            post_ifttt_webhook(EVENT_NAME, "✅✅✅", msg)
-        # Send a Telegram notification
-        # Once we have 5 items in our bitcoin_history send an update
-        # if len(bitcoin_history) == 5:
-        #     post_ifttt_webhook('bitcoin_price_update',
-        #                        format_bitcoin_history(bitcoin_history))
-        # Reset the history
-        # bitcoin_history = []
+        # Once we have 5 items in our coin_history send an update
+        if len(coin_history) == 4:
+            post_ifttt_webhook(EVENT_NAME, "© Last", format_coin_history(coin_history))
+            coin_history = []
+
+
+        # hour = datetime.now().hour
+        hour = datetime.now().hour
+        if hour % 2 == 0:
+            post_ifttt_webhook(EVENT_NAME, "⏰ Livint ...", format_coin(args))
+
+        # if (hour > 18 or hour < 10) and len(coin_history) > 0:
+            # 午夜多提醒⏰
 
         # Sleep for 5 minutes
         # (For testing purposes you can set it to a lower number)
-        time.sleep(INTERVAL)
+        # interval = random.randint(10,40)
+        # time.sleep(interval)
 
+def main():  
+    try:
+        logger.info("启动中：{}".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+        ifttt()
+    except Exception as error:
+        logger.warning("重启中...")
+        logger.warning(error)
+        ifttt()
+    finally:
+        print('success')
+        
 
 if __name__ == "__main__":
     logger = Logger("all.log", level="debug").logger
