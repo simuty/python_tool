@@ -5,6 +5,8 @@ import random
 import urllib.request
 import json
 from urllib import error
+
+# from requests.api import head
 from utils.log import Logger
 
 
@@ -58,8 +60,8 @@ def get_latest_coin_price(url) -> int:
     # 随机从列表中选择IP、Header
     proxy = random.choice(proxy_list)
     header = random.choice(my_headers)
+    logger.info("proxy: {}  --- header: {}".format(proxy, header))
     msg = "URLError: {}-{}\n{}"
-
     try:
         # print(datetime.now().strftime('%Y.%m.%d %H:%M:%S'), "---->111")
         # print(proxy, header)
@@ -81,13 +83,15 @@ def get_latest_coin_price(url) -> int:
         encoding = res.info().get_content_charset("utf-8")
         result = json.loads(data.decode(encoding))
         lastPrice = result.get("c")[-1]
+        # logger.info(result)
         return round(lastPrice, 2)
     except error.URLError as e:
+        logger.error("❌网络错误")
         if hasattr(e, "code"):
             msg = msg.format(proxy, header, e)
         elif hasattr(e, "reason"):
             msg = msg.format(proxy, header, e.reason)
-
+        logger.error(msg)
         post_ifttt_webhook(EVENT_NAME, "❌", msg)
         return 0
 
@@ -98,7 +102,7 @@ def post_ifttt_webhook(event, value1, value2):
     # inserts our desired event
     ifttt_event_url = IFTTT_WEBHOOKS_URL.format(event)
     # Sends a HTTP POST request to the webhook URL
-    res = requests.post(ifttt_event_url, json=data)
+    requests.post(ifttt_event_url, json=data)
     # print(res, ifttt_event_url)
 
 
@@ -150,11 +154,11 @@ def main():
         ratio_btc = round(price_tbtc / price_btc, 2)
 
         obj = {"date": date, "price": price_base, "tPrice": price_t, "ratio": ratio_t}
-        logger.info(obj)
 
-        msg = "{} btc:{}-{}-{} t: {}-{}-{}".format(
+        msg = "{} btc:{}---{}---{} t: {}---{}---{}".format(
             date, price_btc, price_tbtc, ratio_btc, price_base, price_t, ratio_t
         )
+        logger.info(msg)
 
         bitcoin_history.append(
             {"date": date, "price": price_base, "tPrice": price_t, "ratio": ratio_t}
