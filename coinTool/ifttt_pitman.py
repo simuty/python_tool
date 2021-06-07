@@ -94,13 +94,16 @@ def get_latest_coin_price(url) -> int:
         return 0
 
 
+# event 事件名称
+# value1 title
+# content
 def post_ifttt_webhook(event, value1, value2):
     # The payload that will be sent to IFTTT service
     data = {"value1": value1, "value2": value2}
     # inserts our desired event
     ifttt_event_url = IFTTT_WEBHOOKS_URL.format(event)
     # Sends a HTTP POST request to the webhook URL
-    res = requests.post(ifttt_event_url, json=data)
+    requests.post(ifttt_event_url, json=data)
     # print(res, ifttt_event_url)
 
 
@@ -153,7 +156,7 @@ def ifttt():
 
         logger.info(args)
 
-        # Judge tbtc
+        # BTC
         if price_tbtc < BITCOIN_PRICE_THRESHOLD or ratio_btc < PRICE_RATIO_DOWN or ratio_btc > PRICE_RATIO_UP:
             post_ifttt_webhook(EVENT_NAME, "© tbtc √√√√", format_coin(args))
             coin_history.append(args)
@@ -168,8 +171,8 @@ def ifttt():
 
 
         # hour = datetime.now().hour
-        hour = datetime.now().hour
-        if hour % 2 == 0:
+        minute = datetime.now().minute
+        if minute == 0:
             post_ifttt_webhook(EVENT_NAME, "⏰ Livint ...", format_coin(args))
 
         # if (hour > 18 or hour < 10) and len(coin_history) > 0:
