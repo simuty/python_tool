@@ -45,7 +45,7 @@ EVENT_NAME = "buy_coin"
 INTERVAL = 5
 
 BITCOIN_PRICE_THRESHOLD: int = 15000
-PRICE_RATIO_DOWN = 0.5
+PRICE_RATIO_DOWN = 0.6
 PRICE_RATIO_UP = 0.9
 
 
@@ -94,21 +94,20 @@ def get_latest_coin_price(url) -> int:
             msg = msg.format(proxy, header, e.reason)
 
         logger.warning(msg)
-        post_ifttt_webhook(EVENT_NAME, "❌", msg)
         return 0
 
 
 # event 事件名称
 # value1 title
 # content
-def post_ifttt_webhook(event, value1, value2):
+def post_ifttt_webhook(event, value1, value2 = "..."):
     # The payload that will be sent to IFTTT service
     data = {"value1": value1, "value2": value2}
     # inserts our desired event
     ifttt_event_url = IFTTT_WEBHOOKS_URL.format(event)
     # Sends a HTTP POST request to the webhook URL
-    requests.post(ifttt_event_url, json=data)
-    # print(res, ifttt_event_url)
+    res = requests.post(ifttt_event_url, json=data)
+    print(res, ifttt_event_url)
 
 
 def format_coin_history(coin_history):
@@ -196,10 +195,12 @@ def ifttt():
 
 def main():  
     try:
-        logger.info("启动中：{}".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+        msg = " 🚥 启动中。。。"
+        post_ifttt_webhook(EVENT_NAME, msg, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        logger.info(msg)
         ifttt()
     except Exception as error:
-        logger.warning("重启中...")
+        logger.warning("重启中。。。")
         logger.warning(error)
         time.sleep(10)
         main()
