@@ -233,6 +233,7 @@ def main():
         ifttt()
     except Exception as error:
         logger.warning("重启中... {}".format(error))
+        time.sleep(10)
         main()
     finally:
         print('success')
