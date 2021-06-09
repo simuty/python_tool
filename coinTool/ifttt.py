@@ -98,14 +98,14 @@ def get_latest_coin_price(url, key):
         logger.warning("=============================")
         logger.warning("URL: {}".format(url))
         logger.warning("❌ Error description: {}".format(err))
-        post_ifttt_webhook(EVENT_NAME, "❌", msg.format(err))
+        post_ifttt_webhook(EVENT_NAME, "❌", "超时")
         logger.warning("=============================")
         return (key, 0)
     except ConnectionError:
         logger.warning("=============================")
         logger.warning("URL: {}".format(url))
         logger.warning("❌❌ Error description: ConnectionError")
-        post_ifttt_webhook(EVENT_NAME, "❌❌", msg.format("ConnectionError"))
+        post_ifttt_webhook(EVENT_NAME, "❌❌", "异常")
         logger.warning("=============================")
         return (key, 0)
 
@@ -232,9 +232,7 @@ def main():
         logger.info(msg)
         ifttt()
     except Exception as error:
-        logger.warning(error)
         logger.warning("重启中... {}".format(error))
-        time.sleep(10)
         main()
     finally:
         print('success')
