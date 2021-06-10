@@ -1,0 +1,66 @@
+2021-06-08 09:56:10,606 - ifttt_pitman.py[line:189] - INFO: 启动中：2021-06-08 09:56:10
+2021-06-08 09:57:24,763 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 09:56:10', 'btc': 33644.64, 'tbtc': 28507.46, 'ratio': 0.85, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 09:58:42,769 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 09:57:24', 'btc': 33715.74, 'tbtc': 28507.46, 'ratio': 0.85, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:00:01,401 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 09:58:42', 'btc': 33740.62, 'tbtc': 28507.46, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:01:12,568 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:00:01', 'btc': 33725.06, 'tbtc': 28507.46, 'ratio': 0.85, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:02:29,027 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:01:12', 'btc': 33769.01, 'tbtc': 28507.46, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:03:49,231 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:02:29', 'btc': 33712.88, 'tbtc': 28507.46, 'ratio': 0.85, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:05:10,723 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:03:49', 'btc': 33773.99, 'tbtc': 28507.46, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:06:34,875 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:05:10', 'btc': 33792.62, 'tbtc': 28507.46, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:07:52,864 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:06:34', 'btc': 33726.39, 'tbtc': 28507.46, 'ratio': 0.85, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:09:18,605 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:07:52', 'btc': 33679.68, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:10:33,509 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:09:18', 'btc': 33726.52, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:11:54,406 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:10:33', 'btc': 33670.13, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:13:11,487 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:11:54', 'btc': 33767.6, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:14:32,009 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:13:11', 'btc': 33803.98, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:15:48,622 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:14:32', 'btc': 33803.98, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:17:29,916 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:15:48', 'btc': 33774.29, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:18:43,351 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:17:29', 'btc': 33715.43, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:19:53,973 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:18:43', 'btc': 33703.33, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:21:10,554 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:19:53', 'btc': 33633.34, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:22:24,118 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:21:10', 'btc': 33738.24, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:23:36,155 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:22:24', 'btc': 33676.79, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:25:00,297 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:23:36', 'btc': 33648.51, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:26:22,025 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:25:00', 'btc': 33643.27, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:27:52,938 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:26:22', 'btc': 33645.39, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:29:20,948 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:27:52', 'btc': 33971.71, 'tbtc': 28316.8, 'ratio': 0.83, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:30:22,438 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:29:20', 'btc': 33559.25, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:31:38,326 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:30:22', 'btc': 33725.31, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:33:00,580 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:31:38', 'btc': 33597.73, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:34:23,883 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:33:00', 'btc': 33648.99, 'tbtc': 28316.8, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:35:45,856 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:34:23', 'btc': 33588.48, 'tbtc': 28205.65, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:37:04,141 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:35:45', 'btc': 33504.78, 'tbtc': 28316.8, 'ratio': 0.85, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:38:25,518 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:37:04', 'btc': 33582.3, 'tbtc': 28124.88, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:39:33,711 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:38:25', 'btc': 33547.61, 'tbtc': 28122.59, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:40:55,551 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:39:33', 'btc': 33507.19, 'tbtc': 28122.59, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:42:18,264 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:40:55', 'btc': 33457.77, 'tbtc': 28122.59, 'ratio': 0.84, 'f_coin': 0.34, 'f_tcoin': 0.24, 'f_ratio': 0.71}
+2021-06-08 10:43:28,915 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:42:18', 'btc': 33308.47, 'tbtc': 28122.59, 'ratio': 0.84, 'f_coin': 0.33, 'f_tcoin': 0.24, 'f_ratio': 0.73}
+2021-06-08 10:44:52,088 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:43:28', 'btc': 33094.94, 'tbtc': 28122.59, 'ratio': 0.85, 'f_coin': 0.33, 'f_tcoin': 0.24, 'f_ratio': 0.73}
+2021-06-08 10:46:08,100 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:44:52', 'btc': 33165.91, 'tbtc': 28122.59, 'ratio': 0.85, 'f_coin': 0.33, 'f_tcoin': 0.24, 'f_ratio': 0.73}
+2021-06-08 10:47:02,725 - ifttt_pitman.py[line:190] - INFO: 启动中：2021-06-08 10:47:02
+2021-06-08 10:48:24,352 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:47:02', 'btc': 32826.68, 'tbtc': 28122.59, 'ratio': 0.86, 'f_coin': 0.33, 'f_tcoin': 0.24, 'f_ratio': 0.73}
+2021-06-08 10:49:40,011 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:48:24', 'btc': 32770.75, 'tbtc': 28122.59, 'ratio': 0.86, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:50:52,799 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:49:40', 'btc': 32654.49, 'tbtc': 28122.59, 'ratio': 0.86, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:52:07,047 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:50:52', 'btc': 32591.43, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:53:16,496 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:52:07', 'btc': 32482.21, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:54:34,187 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:53:16', 'btc': 32538.99, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:55:51,444 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:54:34', 'btc': 32766.88, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:56:56,273 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:55:51', 'btc': 32638.57, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:58:11,070 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:56:56', 'btc': 32586.54, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 10:59:20,715 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:58:11', 'btc': 32692.4, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 11:00:41,782 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 10:59:20', 'btc': 32711.97, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 11:02:00,932 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 11:00:41', 'btc': 32703.66, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 11:03:15,803 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 11:02:00', 'btc': 32763.91, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 11:04:26,433 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 11:03:15', 'btc': 32785.56, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 11:05:45,480 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 11:04:26', 'btc': 32742.68, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 11:07:10,947 - ifttt_pitman.py[line:158] - INFO: {'date': '2021-06-08 11:05:45', 'btc': 32702.76, 'tbtc': 27084.94, 'ratio': 0.83, 'f_coin': 0.33, 'f_tcoin': 0.23, 'f_ratio': 0.7}
+2021-06-08 17:33:12,783 - testlog.py[line:19] - DEBUG: debug
+2021-06-08 17:33:12,784 - testlog.py[line:20] - INFO: info
+2021-06-08 17:33:12,785 - testlog.py[line:21] - WARNING: 警告
+2021-06-08 17:33:12,785 - testlog.py[line:22] - ERROR: 报错
+2021-06-08 17:33:12,786 - testlog.py[line:23] - CRITICAL: 严重
+2021-06-08 17:33:12,787 - testlog.py[line:25] - INFO: Houston, we have a interesting problem
+NoneType: None
+2021-06-08 17:33:12,788 - testlog.py[line:26] - INFO: {'ss': 1}
+2021-06-08 17:33:12,788 - testlog.py[line:31] - INFO: {'key': '1'}
+2021-06-08 17:33:41,204 - 1.py[line:209] - INFO:  🚥 启动中。。。
