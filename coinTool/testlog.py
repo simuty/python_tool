@@ -1,7 +1,7 @@
 '''
 Author: simuty
 Date: 2021-06-07 17:43:59
-LastEditTime: 2021-06-07 17:43:59
+LastEditTime: 2021-06-19 17:08:25
 LastEditors: Please set LastEditors
 Description: 
 '''
@@ -29,4 +29,6 @@ key = "key"
 value = "1"
 
 log.logger.info({key: value})
+
+
 

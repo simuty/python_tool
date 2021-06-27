@@ -184,11 +184,12 @@ def ifttt():
         result = gevent.joinall([
             gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(PIT_COIN, start, end), 'PIT_COIN'),
             gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(PIT_COIN_T, start, end), 'PIT_COIN_T'),
-            gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(BTC, start, end), 'BTC'),
-            gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(TBTC, start, end), 'TBTC'),
-            gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(BTCST, start, end), 'BTCST'),
-            gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(BNBTC, start, end), 'BNBTC'),
+            # gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(BTC, start, end), 'BTC'),
+            # gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(TBTC, start, end), 'TBTC'),
+            # gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(BTCST, start, end), 'BTCST'),
+            # gevent.spawn(get_latest_coin_price, BITCOIN_API_URL.format(BNBTC, start, end), 'BNBTC'),
         ])
+        print("======>>>>  ", result)
         # 从result中获取每个请求的Response
         response_list = [element.value for element in result]
 
@@ -240,7 +241,7 @@ def ifttt():
 
 def main():
     try:
-        msg = " 🚥  ⚒⚒ ..."
+        msg = " 🚥 🚥 启动中..."
         post_ifttt_webhook(
             EVENT_NAME, msg, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
         logger.info(msg)
