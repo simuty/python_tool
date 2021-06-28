@@ -74,6 +74,9 @@ TBTC = "0x2cd1075682b0fccaadd0ca629e138e64015ba11c"
 BTC = "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
 BNBTC = "0xe7cb24f449973d5b3520e5b93d88b405903c75fb"
 BTCST = "0x78650b139471520656b9e7aa7a5e9276814a38e9"
+
+
+
 SEARCH_ADDRESS = "https://api.dex.guru/v2/tokens/search/{}"
 
 

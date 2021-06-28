@@ -1,0 +1,604 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "coinId": 1,
+    "coinName": "BTC",
+    "dayList": [
+      {
+        "time": 1624406400000,
+        "price": "32509.56",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.21922060",
+        "eachHaveCny": "1.41835728"
+      },
+      {
+        "time": 1624320000000,
+        "price": "31614.12",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.21194117",
+        "eachHaveCny": "1.37337878"
+      },
+      {
+        "time": 1624233600000,
+        "price": "35600.17",
+        "eachHaveCoin": "0.00000669",
+        "eachHaveUsdt": "0.23377158",
+        "eachHaveCny": "1.51250212"
+      },
+      {
+        "time": 1624147200000,
+        "price": "35483.72",
+        "eachHaveCoin": "0.00000652",
+        "eachHaveUsdt": "0.22708595",
+        "eachHaveCny": "1.46470437"
+      },
+      {
+        "time": 1624060800000,
+        "price": "35820.48",
+        "eachHaveCoin": "0.00000654",
+        "eachHaveUsdt": "0.22994431",
+        "eachHaveCny": "1.48314079"
+      },
+      {
+        "time": 1623974400000,
+        "price": "38092.97",
+        "eachHaveCoin": "0.00000656",
+        "eachHaveUsdt": "0.24528003",
+        "eachHaveCny": "1.58205619"
+      },
+      {
+        "time": 1623888000000,
+        "price": "38349.00",
+        "eachHaveCoin": "0.00000655",
+        "eachHaveUsdt": "0.24655219",
+        "eachHaveCny": "1.59026162"
+      },
+      {
+        "time": 1623801600000,
+        "price": "40143.80",
+        "eachHaveCoin": "0.00000662",
+        "eachHaveUsdt": "0.26084949",
+        "eachHaveCny": "1.66943673"
+      },
+      {
+        "time": 1623715200000,
+        "price": "40516.28",
+        "eachHaveCoin": "0.00000660",
+        "eachHaveUsdt": "0.26247444",
+        "eachHaveCny": "1.68246116"
+      },
+      {
+        "time": 1623628800000,
+        "price": "39020.56",
+        "eachHaveCoin": "0.00000658",
+        "eachHaveUsdt": "0.25201879",
+        "eachHaveCny": "1.61292025"
+      },
+      {
+        "time": 1623542400000,
+        "price": "35546.12",
+        "eachHaveCoin": "0.00000619",
+        "eachHaveUsdt": "0.21597147",
+        "eachHaveCny": "1.38221740"
+      },
+      {
+        "time": 1623456000000,
+        "price": "37331.98",
+        "eachHaveCoin": "0.00000623",
+        "eachHaveUsdt": "0.22828774",
+        "eachHaveCny": "1.46104153"
+      },
+      {
+        "time": 1623369600000,
+        "price": "36677.83",
+        "eachHaveCoin": "0.00000634",
+        "eachHaveUsdt": "0.22824770",
+        "eachHaveCny": "1.46078528"
+      },
+      {
+        "time": 1623283200000,
+        "price": "37388.05",
+        "eachHaveCoin": "0.00000634",
+        "eachHaveUsdt": "0.23266743",
+        "eachHaveCny": "1.48674487"
+      },
+      {
+        "time": 1623196800000,
+        "price": "33380.80",
+        "eachHaveCoin": "0.00000622",
+        "eachHaveUsdt": "0.20379834",
+        "eachHaveCny": "1.30227139"
+      },
+      {
+        "time": 1623110400000,
+        "price": "33556.96",
+        "eachHaveCoin": "0.00000619",
+        "eachHaveUsdt": "0.20388571",
+        "eachHaveCny": "1.30486854"
+      },
+      {
+        "time": 1623024000000,
+        "price": "35796.31",
+        "eachHaveCoin": "0.00000622",
+        "eachHaveUsdt": "0.21854565",
+        "eachHaveCny": "1.39869216"
+      },
+      {
+        "time": 1622937600000,
+        "price": "35516.07",
+        "eachHaveCoin": "0.00000611",
+        "eachHaveUsdt": "0.21300002",
+        "eachHaveCny": "1.36320012"
+      },
+      {
+        "time": 1622851200000,
+        "price": "36829.15",
+        "eachHaveCoin": "0.00000618",
+        "eachHaveUsdt": "0.22340541",
+        "eachHaveCny": "1.42979462"
+      },
+      {
+        "time": 1622764800000,
+        "price": "39246.78",
+        "eachHaveCoin": "0.00000628",
+        "eachHaveUsdt": "0.24192302",
+        "eachHaveCny": "1.54830732"
+      },
+      {
+        "time": 1622678400000,
+        "price": "37568.68",
+        "eachHaveCoin": "0.00000629",
+        "eachHaveUsdt": "0.23194772",
+        "eachHaveCny": "1.48446540"
+      },
+      {
+        "time": 1622592000000,
+        "price": "36694.85",
+        "eachHaveCoin": "0.00000626",
+        "eachHaveUsdt": "0.22547219",
+        "eachHaveCny": "1.43851257"
+      },
+      {
+        "time": 1622505600000,
+        "price": "37253.82",
+        "eachHaveCoin": "0.00000629",
+        "eachHaveUsdt": "0.23000378",
+        "eachHaveCny": "1.46742411"
+      },
+      {
+        "time": 1622419200000,
+        "price": "35641.26",
+        "eachHaveCoin": "0.00000628",
+        "eachHaveUsdt": "0.21969806",
+        "eachHaveCny": "1.39947664"
+      },
+      {
+        "time": 1622332800000,
+        "price": "34605.15",
+        "eachHaveCoin": "0.00000615",
+        "eachHaveUsdt": "0.20889564",
+        "eachHaveCny": "1.33066522"
+      },
+      {
+        "time": 1622246400000,
+        "price": "35661.79",
+        "eachHaveCoin": "0.00000534",
+        "eachHaveUsdt": "0.18692092",
+        "eachHaveCny": "1.19068626"
+      },
+      {
+        "time": 1622160000000,
+        "price": "38529.99",
+        "eachHaveCoin": "0.00000548",
+        "eachHaveUsdt": "0.20724925",
+        "eachHaveCny": "1.32017772"
+      },
+      {
+        "time": 1622073600000,
+        "price": "39241.92",
+        "eachHaveCoin": "0.00000547",
+        "eachHaveUsdt": "0.21069348",
+        "eachHaveCny": "1.34422440"
+      },
+      {
+        "time": 1621987200000,
+        "price": "38324.72",
+        "eachHaveCoin": "0.00000553",
+        "eachHaveUsdt": "0.20802601",
+        "eachHaveCny": "1.32928620"
+      },
+      {
+        "time": 1621900800000,
+        "price": "38810.99",
+        "eachHaveCoin": "0.00000558",
+        "eachHaveUsdt": "0.21257023",
+        "eachHaveCny": "1.36257517"
+      },
+      {
+        "time": 1621814400000,
+        "price": "34681.44",
+        "eachHaveCoin": "0.00000563",
+        "eachHaveUsdt": "0.19165451",
+        "eachHaveCny": "1.23042195"
+      },
+      {
+        "time": 1621728000000,
+        "price": "37458.51",
+        "eachHaveCoin": "0.00000556",
+        "eachHaveUsdt": "0.20442726",
+        "eachHaveCny": "1.31446728"
+      },
+      {
+        "time": 1621641600000,
+        "price": "37263.35",
+        "eachHaveCoin": "0.00000572",
+        "eachHaveUsdt": "0.20921434",
+        "eachHaveCny": "1.34524820"
+      },
+      {
+        "time": 1621555200000,
+        "price": "40525.39",
+        "eachHaveCoin": "0.00000597",
+        "eachHaveUsdt": "0.23747345",
+        "eachHaveCny": "1.52695428"
+      },
+      {
+        "time": 1621468800000,
+        "price": "36671.23",
+        "eachHaveCoin": "0.00000596",
+        "eachHaveUsdt": "0.21452863",
+        "eachHaveCny": "1.37941909"
+      },
+      {
+        "time": 1621382400000,
+        "price": "42849.78",
+        "eachHaveCoin": "0.00000580",
+        "eachHaveUsdt": "0.24394399",
+        "eachHaveCny": "1.56855985"
+      },
+      {
+        "time": 1621296000000,
+        "price": "43538.02",
+        "eachHaveCoin": "0.00000555",
+        "eachHaveUsdt": "0.23717843",
+        "eachHaveCny": "1.52505730"
+      },
+      {
+        "time": 1621209600000,
+        "price": "46426.83",
+        "eachHaveCoin": "0.00000552",
+        "eachHaveUsdt": "0.25154844",
+        "eachHaveCny": "1.61997195"
+      },
+      {
+        "time": 1621123200000,
+        "price": "46762.99",
+        "eachHaveCoin": "0.00000533",
+        "eachHaveUsdt": "0.24464875",
+        "eachHaveCny": "1.57553795"
+      },
+      {
+        "time": 1621036800000,
+        "price": "49844.16",
+        "eachHaveCoin": "0.00000542",
+        "eachHaveUsdt": "0.26517165",
+        "eachHaveCny": "1.70770542"
+      },
+      {
+        "time": 1620950400000,
+        "price": "49671.92",
+        "eachHaveCoin": "0.00000545",
+        "eachHaveUsdt": "0.26571800",
+        "eachHaveCny": "1.71122392"
+      },
+      {
+        "time": 1620864000000,
+        "price": "49537.15",
+        "eachHaveCoin": "0.00000576",
+        "eachHaveUsdt": "0.28007028",
+        "eachHaveCny": "1.80645330"
+      },
+      {
+        "time": 1620777600000,
+        "price": "56670.02",
+        "eachHaveCoin": "0.00000653",
+        "eachHaveUsdt": "0.36322863",
+        "eachHaveCny": "2.34645694"
+      },
+      {
+        "time": 1620691200000,
+        "price": "55816.14",
+        "eachHaveCoin": "0.00000656",
+        "eachHaveUsdt": "0.35939925",
+        "eachHaveCny": "2.31093717"
+      },
+      {
+        "time": 1620604800000,
+        "price": "58240.83",
+        "eachHaveCoin": "0.00000664",
+        "eachHaveUsdt": "0.37958511",
+        "eachHaveCny": "2.43693640"
+      },
+      {
+        "time": 1620518400000,
+        "price": "58866.53",
+        "eachHaveCoin": "0.00000646",
+        "eachHaveUsdt": "0.37326260",
+        "eachHaveCny": "2.40007851"
+      },
+      {
+        "time": 1620432000000,
+        "price": "57315.49",
+        "eachHaveCoin": "0.00000659",
+        "eachHaveUsdt": "0.37074129",
+        "eachHaveCny": "2.38386649"
+      },
+      {
+        "time": 1620345600000,
+        "price": "56393.68",
+        "eachHaveCoin": "0.00000669",
+        "eachHaveUsdt": "0.37031396",
+        "eachHaveCny": "2.38111876"
+      },
+      {
+        "time": 1620259200000,
+        "price": "57436.11",
+        "eachHaveCoin": "0.00000672",
+        "eachHaveUsdt": "0.37885046",
+        "eachHaveCny": "2.44737397"
+      },
+      {
+        "time": 1620172800000,
+        "price": "53205.05",
+        "eachHaveCoin": "0.00000672",
+        "eachHaveUsdt": "0.35094225",
+        "eachHaveCny": "2.27059635"
+      },
+      {
+        "time": 1620086400000,
+        "price": "57169.39",
+        "eachHaveCoin": "0.00000663",
+        "eachHaveUsdt": "0.37204084",
+        "eachHaveCny": "2.40710423"
+      },
+      {
+        "time": 1620000000000,
+        "price": "56578.21",
+        "eachHaveCoin": "0.00000671",
+        "eachHaveUsdt": "0.37263638",
+        "eachHaveCny": "2.41095737"
+      },
+      {
+        "time": 1619913600000,
+        "price": "57797.35",
+        "eachHaveCoin": "0.00000654",
+        "eachHaveUsdt": "0.37102161",
+        "eachHaveCny": "2.40050981"
+      },
+      {
+        "time": 1619827200000,
+        "price": "57697.25",
+        "eachHaveCoin": "0.00000607",
+        "eachHaveUsdt": "0.34376158",
+        "eachHaveCny": "2.22413742"
+      },
+      {
+        "time": 1619740800000,
+        "price": "53555.00",
+        "eachHaveCoin": "0.00000617",
+        "eachHaveUsdt": "0.32433866",
+        "eachHaveCny": "2.09847113"
+      },
+      {
+        "time": 1619654400000,
+        "price": "54846.23",
+        "eachHaveCoin": "0.00000634",
+        "eachHaveUsdt": "0.34131043",
+        "eachHaveCny": "2.20827848"
+      },
+      {
+        "time": 1619568000000,
+        "price": "55011.97",
+        "eachHaveCoin": "0.00000614",
+        "eachHaveUsdt": "0.33154241",
+        "eachHaveCny": "2.14839481"
+      },
+      {
+        "time": 1619481600000,
+        "price": "54001.38",
+        "eachHaveCoin": "0.00000630",
+        "eachHaveUsdt": "0.33393269",
+        "eachHaveCny": "2.16388383"
+      },
+      {
+        "time": 1619395200000,
+        "price": "49066.76",
+        "eachHaveCoin": "0.00000658",
+        "eachHaveUsdt": "0.31690333",
+        "eachHaveCny": "2.05670261"
+      },
+      {
+        "time": 1619308800000,
+        "price": "50047.84",
+        "eachHaveCoin": "0.00000603",
+        "eachHaveUsdt": "0.29622123",
+        "eachHaveCny": "1.92543799"
+      }
+    ],
+    "hourList": [
+      {
+        "time": 1624510800000,
+        "price": "32546.39",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.21946895",
+        "eachHaveCny": "1.42215879"
+      },
+      {
+        "time": 1624507200000,
+        "price": "32589.20",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.21975763",
+        "eachHaveCny": "1.42402944"
+      },
+      {
+        "time": 1624503600000,
+        "price": "32495.25",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.21912410",
+        "eachHaveCny": "1.41992416"
+      },
+      {
+        "time": 1624500000000,
+        "price": "32649.99",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.22016755",
+        "eachHaveCny": "1.42668572"
+      },
+      {
+        "time": 1624496400000,
+        "price": "33186.99",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.22378869",
+        "eachHaveCny": "1.44791282"
+      },
+      {
+        "time": 1624492800000,
+        "price": "33675.07",
+        "eachHaveCoin": "0.00000687",
+        "eachHaveUsdt": "0.22707994",
+        "eachHaveCny": "1.46920721"
+      },
+      {
+        "time": 1624489200000,
+        "price": "33469.76",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22438139",
+        "eachHaveCny": "1.45174759"
+      },
+      {
+        "time": 1624485600000,
+        "price": "33335.01",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22347802",
+        "eachHaveCny": "1.44590278"
+      },
+      {
+        "time": 1624482000000,
+        "price": "33045.77",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22153896",
+        "eachHaveCny": "1.43335707"
+      },
+      {
+        "time": 1624478400000,
+        "price": "32882.50",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22044439",
+        "eachHaveCny": "1.42627520"
+      },
+      {
+        "time": 1624474800000,
+        "price": "33292.57",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22319350",
+        "eachHaveCny": "1.44629388"
+      },
+      {
+        "time": 1624471200000,
+        "price": "33595.81",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22522643",
+        "eachHaveCny": "1.45721500"
+      },
+      {
+        "time": 1624467600000,
+        "price": "33688.58",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22584836",
+        "eachHaveCny": "1.46123888"
+      },
+      {
+        "time": 1624464000000,
+        "price": "33490.14",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22451801",
+        "eachHaveCny": "1.45263152"
+      },
+      {
+        "time": 1624460400000,
+        "price": "34058.00",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22832495",
+        "eachHaveCny": "1.47954567"
+      },
+      {
+        "time": 1624456800000,
+        "price": "33989.13",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22786324",
+        "eachHaveCny": "1.47427516"
+      },
+      {
+        "time": 1624453200000,
+        "price": "34199.99",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22927685",
+        "eachHaveCny": "1.48342121"
+      },
+      {
+        "time": 1624449600000,
+        "price": "33911.40",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22734214",
+        "eachHaveCny": "1.47090364"
+      },
+      {
+        "time": 1624446000000,
+        "price": "34218.49",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22940087",
+        "eachHaveCny": "1.48651763"
+      },
+      {
+        "time": 1624442400000,
+        "price": "33920.97",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22740630",
+        "eachHaveCny": "1.47359282"
+      },
+      {
+        "time": 1624438800000,
+        "price": "33735.05",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22615989",
+        "eachHaveCny": "1.46551608"
+      },
+      {
+        "time": 1624435200000,
+        "price": "33982.26",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22781719",
+        "eachHaveCny": "1.47625539"
+      },
+      {
+        "time": 1624431600000,
+        "price": "33880.89",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.22713760",
+        "eachHaveCny": "1.47185164"
+      },
+      {
+        "time": 1624428000000,
+        "price": "34320.47",
+        "eachHaveCoin": "0.00000683",
+        "eachHaveUsdt": "0.23008455",
+        "eachHaveCny": "1.49324872"
+      }
+    ]
+  }
+}
+
+
+
+

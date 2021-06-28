@@ -1,7 +1,7 @@
 '''
 Author: simuty
 Date: 2021-06-07 17:43:59
-LastEditTime: 2021-06-07 17:43:59
+LastEditTime: 2021-06-10 18:36:27
 LastEditors: Please set LastEditors
 Description: 
 '''
@@ -15,7 +15,7 @@ Description:
 from utils.log import Logger
 
 
-log = Logger('./all.log',level='debug')
+log = Logger('test.log',level='debug',when="D")
 log.logger.debug('debug')
 log.logger.info('info')
 log.logger.warning('警告')

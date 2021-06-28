@@ -96,8 +96,9 @@ def get_latest_coin_price(url, key):
         data = res.read()
         encoding = res.info().get_content_charset("utf-8")
         result = json.loads(data.decode(encoding))
+        print(result)
         lastPrice = result.get("c")[-1]
-        return (key, round(lastPrice, 3))
+        return lastPrice
     # except error.URLError as err:
     except socket.timeout as err:
         logger.warning("=============================")
@@ -165,6 +166,7 @@ def format_loger(args):
         "PIT_COIN": args['PIT_COIN'],
         "RATIO_T": args['RATIO_T'],
         "BTCST": args['BTCST'],
+        "NEWINU": args['NEWINU'],
     }
     logger.info(info)
 
@@ -178,12 +180,13 @@ def ifttt():
         start = end - num
 
         result = gevent.joinall([
-            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(PIT_COIN, start, end), 'PIT_COIN'),
-            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(PIT_COIN_T, start, end), 'PIT_COIN_T'),
-            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BTC, start, end), 'BTC'),
-            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(TBTC, start, end), 'TBTC'),
-            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BTCST, start, end), 'BTCST'),
-            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BTCST, start, end), 'BTCST'),
+            # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(PIT_COIN, start, end), 'PIT_COIN'),
+            # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(PIT_COIN_T, start, end), 'PIT_COIN_T'),
+            # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BTC, start, end), 'BTC'),
+            # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(TBTC, start, end), 'TBTC'),
+            # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BTCST, start, end), 'BTCST'),
+            # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BTCST, start, end), 'BTCST'),
+            gevent.spawn(get_latest_coin_price, COIN_API_URL.format(NEWINU, start, end), 'NEWINU'),
             # gevent.spawn(get_latest_coin_price, COIN_API_URL.format(BNBTC, start, end), 'BNBTC'),
         ])
         # 从result中获取每个请求的Response
@@ -192,34 +195,34 @@ def ifttt():
         obj = dict(response_list)
         if 0 in obj.values():
             continue
-
-        obj['RATIO_BTC'] = round(obj['TBTC'] / obj['BTC'], 2)
-        obj['RATIO_T'] = round(obj['PIT_COIN_T'] / obj['PIT_COIN'], 2)
-        format_loger(obj)
+        print(obj['NEWINU'])
+        # obj['RATIO_BTC'] = round(obj['TBTC'] / obj['BTC'], 2)
+        # obj['RATIO_T'] = round(obj['PIT_COIN_T'] / obj['PIT_COIN'], 2)
+        # format_loger(obj)
         
-        # # btcst
-        if obj['BTCST'] < PRICE_BTCST:
-            post_ifttt_webhook(EVENT_NAME, "©© BTCST ⛏️⛏️ ", format_coin(obj))
+        # # # btcst
+        # if obj['BTCST'] < PRICE_BTCST:
+        #     post_ifttt_webhook(EVENT_NAME, "©© BTCST ⛏️⛏️ ", format_coin(obj))
 
-        # BTC
-        if obj['TBTC'] < BITCOIN_PRICE_THRESHOLD or obj['RATIO_BTC'] < PRICE_RATIO_DOWN or obj['RATIO_BTC'] > PRICE_RATIO_UP:
-            post_ifttt_webhook(EVENT_NAME, "©© TBTC ⚠️⚠️", format_coin(obj))
-            # coin_history.append(obj)
+        # # BTC
+        # if obj['TBTC'] < BITCOIN_PRICE_THRESHOLD or obj['RATIO_BTC'] < PRICE_RATIO_DOWN or obj['RATIO_BTC'] > PRICE_RATIO_UP:
+        #     post_ifttt_webhook(EVENT_NAME, "©© TBTC ⚠️⚠️", format_coin(obj))
+        #     # coin_history.append(obj)
         
-        # τ 挖矿浮出水面
-        if obj['RATIO_T'] > PRICE_RATIO_UP or obj['RATIO_T'] < PRICE_RATIO_DOWN:
-            post_ifttt_webhook(EVENT_NAME, "©© τ 💎💎", format_coin(obj))
+        # # τ 挖矿浮出水面
+        # if obj['RATIO_T'] > PRICE_RATIO_UP or obj['RATIO_T'] < PRICE_RATIO_DOWN:
+        #     post_ifttt_webhook(EVENT_NAME, "©© τ 💎💎", format_coin(obj))
 
-        # 波段
-        # if obj['BNBTC'] < PRICE_BNBTC_DOWN or obj['BNBTC'] > PRICE_BNBTC_UP:
-            # post_ifttt_webhook(EVENT_NAME, "©© BNBTC 🌊🌊", format_coin(obj))
+        # # 波段
+        # # if obj['BNBTC'] < PRICE_BNBTC_DOWN or obj['BNBTC'] > PRICE_BNBTC_UP:
+        #     # post_ifttt_webhook(EVENT_NAME, "©© BNBTC 🌊🌊", format_coin(obj))
 
 
-        # Once we have 5 items in our coin_history send an update
-        if len(coin_history) == 4:
-            post_ifttt_webhook(EVENT_NAME, "©© Last",
-                               format_coin_history(coin_history))
-            coin_history = []
+        # # Once we have 5 items in our coin_history send an update
+        # if len(coin_history) == 4:
+        #     post_ifttt_webhook(EVENT_NAME, "©© Last",
+        #                        format_coin_history(coin_history))
+        #     coin_history = []
 
         # hour = datetime.now().hour
         minute = datetime.now().minute
@@ -232,17 +235,18 @@ def ifttt():
         # Sleep for 5 minutes
         # (For testing purposes you can set it to a lower number)
         # interval = random.randint(10,40)
-        time.sleep(INTERVAL)
+        # time.sleep(INTERVAL)
 
 
 def main():
     try:
-        msg = " 🚥 🚥 启动中... "
-        post_ifttt_webhook(
-            EVENT_NAME, msg, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-        logger.info(msg)
+        # msg = " 🚥 🚥 启动中... "
+        # post_ifttt_webhook(
+        #     EVENT_NAME, msg, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        # logger.info(msg)
         ifttt()
     except Exception as error:
+        time.sleep(20)
         logger.warning("重启中... {}".format(error))
         main()
     finally:
