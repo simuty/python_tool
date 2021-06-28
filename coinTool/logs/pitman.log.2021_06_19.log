@@ -1,0 +1,413 @@
+2021-06-19 16:31:42,276 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:122] - INFO:  🚥  启动中...
+2021-06-19 16:32:05,359 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:46] - INFO: {'TBTC': 31248.133, 'BTC': 35674.207, 'RATIO_BTC': 0.88, 'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.468, 'BNBTC': 0.159}
+2021-06-19 16:33:23,163 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:46] - INFO: {'TBTC': 31248.133, 'BTC': 35797.543, 'RATIO_BTC': 0.87, 'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.468, 'BNBTC': 0.159}
+2021-06-19 16:34:42,050 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:46] - INFO: {'TBTC': 31248.133, 'BTC': 35724.069, 'RATIO_BTC': 0.87, 'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.468, 'BNBTC': 0.166}
+2021-06-19 16:43:21,423 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  启动中...
+2021-06-19 16:43:57,961 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  启动中...
+2021-06-19 16:44:06,481 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  启动中...
+2021-06-19 16:44:41,777 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒ ...
+2021-06-19 16:45:18,943 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒ ...
+2021-06-19 16:46:01,884 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒ ...
+2021-06-19 16:46:25,074 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:46:43,538 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 16:47:04,426 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:47:26,470 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 16:47:47,350 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:48:00,851 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 16:48:21,828 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:48:43,697 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 16:49:04,597 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:49:38,859 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 16:49:57,425 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:100] - INFO: 重启中...
+2021-06-19 16:50:43,631 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:102] - INFO: 重启中...
+2021-06-19 16:51:23,843 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:102] - INFO: 重启中...
+2021-06-19 16:52:01,249 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:102] - INFO: 重启中...
+2021-06-19 16:52:36,716 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:102] - INFO: 重启中...
+2021-06-19 16:53:13,420 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:102] - INFO: 重启中...
+2021-06-19 16:54:45,872 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:66] - INFO: {'TDOG': 0.204, 'BTCST': 25.527, 'DOG': 0.293, 'RATIO_DOG': 0.7}
+2021-06-19 16:54:45,873 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:47] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7}
+2021-06-19 16:55:55,226 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:67] - INFO: {'BTCST': 25.527, 'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7}
+2021-06-19 16:55:55,227 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.527}
+2021-06-19 16:56:30,561 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:56:48,343 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 16:57:09,196 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:57:27,726 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 16:57:43,514 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.527}
+2021-06-19 16:58:46,452 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.527}
+2021-06-19 16:59:53,647 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.527}
+2021-06-19 17:01:06,249 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.527}
+2021-06-19 17:02:14,739 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.527}
+2021-06-19 17:03:23,710 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.527}
+2021-06-19 17:04:36,617 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.529}
+2021-06-19 17:05:46,786 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.529}
+2021-06-19 17:06:55,393 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.529}
+2021-06-19 17:08:01,423 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.543}
+2021-06-19 17:09:08,586 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.543}
+2021-06-19 17:10:18,430 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.543}
+2021-06-19 17:11:29,119 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.543}
+2021-06-19 17:12:38,230 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.543}
+2021-06-19 17:13:47,599 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.543}
+2021-06-19 17:14:51,321 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:15:59,485 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:17:07,518 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:18:13,441 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:19:20,141 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:20:22,721 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.293, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:21:30,203 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.565}
+2021-06-19 17:22:39,615 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:23:48,136 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:24:58,389 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.565}
+2021-06-19 17:26:04,390 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:27:13,949 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:28:19,177 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:29:28,864 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:30:32,780 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:31:37,122 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:32:44,125 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:33:22,299 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 17:33:39,457 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:34:47,069 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:35:59,200 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.291, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:37:06,262 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.291, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:38:12,849 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.291, 'RATIO_DOG': 0.7, 'BTCST': 25.48}
+2021-06-19 17:39:20,573 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.392}
+2021-06-19 17:40:30,438 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.392}
+2021-06-19 17:41:45,104 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.392}
+2021-06-19 17:42:58,567 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.392}
+2021-06-19 17:44:06,972 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.392}
+2021-06-19 17:45:16,167 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.392}
+2021-06-19 17:46:23,150 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.392}
+2021-06-19 17:48:25,234 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 17:48:46,341 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 17:49:06,465 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.392}
+2021-06-19 17:50:16,543 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.392}
+2021-06-19 17:51:21,266 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.392}
+2021-06-19 17:52:29,523 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.392}
+2021-06-19 17:53:39,360 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.291, 'RATIO_DOG': 0.7, 'BTCST': 25.45}
+2021-06-19 17:54:45,549 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.291, 'RATIO_DOG': 0.7, 'BTCST': 25.45}
+2021-06-19 17:55:54,842 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.291, 'RATIO_DOG': 0.7, 'BTCST': 25.45}
+2021-06-19 17:57:03,036 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 17:58:08,548 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 17:59:13,205 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:00:18,276 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:01:26,136 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:02:36,769 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:03:45,847 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:04:53,298 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:06:01,001 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:07:06,758 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:08:17,239 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:09:24,245 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.349}
+2021-06-19 18:10:30,292 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:12:30,184 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 18:12:51,176 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 18:13:10,419 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:14:22,546 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:15:32,359 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:16:42,391 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:17:52,429 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:19:00,016 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.302}
+2021-06-19 18:20:10,016 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.302}
+2021-06-19 18:21:13,611 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.284}
+2021-06-19 18:22:21,639 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.284}
+2021-06-19 18:23:27,326 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.071}
+2021-06-19 18:24:34,268 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.102}
+2021-06-19 18:25:42,773 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.102}
+2021-06-19 18:26:52,875 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.102}
+2021-06-19 18:28:01,181 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.102}
+2021-06-19 18:29:11,743 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.102}
+2021-06-19 18:30:22,487 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.102}
+2021-06-19 18:31:31,192 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.036}
+2021-06-19 18:33:30,336 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 18:33:51,260 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 18:34:08,625 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.036}
+2021-06-19 18:35:16,122 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.036}
+2021-06-19 18:36:26,265 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.036}
+2021-06-19 18:37:33,853 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:38:42,305 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:39:48,219 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:40:56,784 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:42:03,961 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:43:13,682 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:44:22,067 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:45:32,404 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:46:42,150 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.204}
+2021-06-19 18:47:51,149 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.204}
+2021-06-19 18:48:59,495 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.141}
+2021-06-19 18:50:05,362 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.141}
+2021-06-19 18:51:10,757 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.15}
+2021-06-19 18:52:23,108 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.15}
+2021-06-19 18:53:30,597 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.15}
+2021-06-19 18:54:34,560 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 18:55:44,227 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 18:56:52,072 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 18:58:06,792 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 18:59:17,566 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 19:00:25,225 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 19:01:34,098 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.15}
+2021-06-19 19:02:44,004 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:03:53,965 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:05:07,989 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:06:16,386 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:07:25,373 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:08:33,139 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:09:40,168 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:10:49,074 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 19:11:10,126 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 19:11:28,858 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:12:39,876 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:13:47,035 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:14:54,080 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:16:01,832 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:17:11,620 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:18:19,934 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.134}
+2021-06-19 19:19:23,851 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:20:39,203 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:21:46,070 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:22:57,881 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:24:03,077 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:25:10,428 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.29, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:26:15,492 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:27:23,764 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:28:31,425 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:29:40,866 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:30:47,244 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 19:31:08,343 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 19:31:26,300 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:32:32,288 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:33:42,025 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:34:48,221 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:35:53,117 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.29, 'RATIO_DOG': 0.7, 'BTCST': 25.124}
+2021-06-19 19:36:59,225 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:38:11,845 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:39:18,746 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:40:26,385 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:41:30,054 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:42:39,284 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.124}
+2021-06-19 19:43:47,992 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:44:59,517 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:46:03,350 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:47:13,690 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:48:21,724 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:49:33,348 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:50:40,529 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:51:49,225 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 19:52:10,250 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 19:52:26,342 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 19:53:34,583 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 19:54:39,646 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 19:55:45,366 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 19:56:52,407 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 19:57:58,494 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 19:59:09,257 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 20:00:16,503 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 20:01:23,759 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 20:02:34,422 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 20:03:44,095 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.261}
+2021-06-19 20:04:56,499 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.349}
+2021-06-19 20:06:07,530 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.349}
+2021-06-19 20:07:16,628 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.349}
+2021-06-19 20:08:27,412 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.349}
+2021-06-19 20:09:37,224 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.349}
+2021-06-19 20:10:46,219 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.348}
+2021-06-19 20:11:50,026 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.348}
+2021-06-19 20:13:01,065 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.348}
+2021-06-19 20:14:08,682 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.295, 'RATIO_DOG': 0.68, 'BTCST': 25.348}
+2021-06-19 20:15:17,952 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.348}
+2021-06-19 20:16:24,328 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.348}
+2021-06-19 20:17:33,147 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.348}
+2021-06-19 20:18:39,572 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.441}
+2021-06-19 20:19:47,573 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.441}
+2021-06-19 20:20:57,325 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.298, 'RATIO_DOG': 0.68, 'BTCST': 25.441}
+2021-06-19 20:22:07,371 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.441}
+2021-06-19 20:23:13,238 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.441}
+2021-06-19 20:24:21,517 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.441}
+2021-06-19 20:25:31,069 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:26:44,687 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:27:56,728 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:29:07,492 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:30:16,972 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:31:29,603 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:32:36,044 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:33:44,678 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.204, 'DOG': 0.297, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:34:53,802 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:36:00,712 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:37:08,246 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:38:14,028 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.296, 'RATIO_DOG': 0.69, 'BTCST': 25.571}
+2021-06-19 20:39:25,525 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.467}
+2021-06-19 20:40:36,007 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.467}
+2021-06-19 20:41:43,879 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.388}
+2021-06-19 20:42:51,404 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:43:57,148 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:45:04,459 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:46:13,555 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:47:18,153 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:48:24,366 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:49:34,319 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:50:41,321 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:51:53,488 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:53:03,749 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:54:09,411 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.438}
+2021-06-19 20:55:18,066 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.234}
+2021-06-19 20:56:26,099 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.234}
+2021-06-19 20:57:34,193 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.234}
+2021-06-19 20:58:39,917 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.234}
+2021-06-19 20:59:50,955 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.158}
+2021-06-19 21:00:56,101 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.158}
+2021-06-19 21:02:02,519 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.158}
+2021-06-19 21:03:12,892 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.247}
+2021-06-19 21:04:24,987 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.247}
+2021-06-19 21:05:36,817 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.247}
+2021-06-19 21:06:46,114 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 21:07:54,582 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 21:09:02,006 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.186}
+2021-06-19 21:10:07,010 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:11:14,168 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:12:26,413 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:13:31,509 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:14:38,886 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:15:48,785 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:16:52,640 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:18:02,426 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:19:12,306 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:20:20,844 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:21:25,543 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:22:32,596 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.292, 'RATIO_DOG': 0.7, 'BTCST': 25.185}
+2021-06-19 21:23:38,698 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.185}
+2021-06-19 21:24:48,015 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.185}
+2021-06-19 21:25:54,913 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.185}
+2021-06-19 21:26:58,517 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:28:07,017 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:29:18,165 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:30:28,970 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:31:38,251 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:32:46,744 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 21:33:08,254 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 21:33:26,733 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:34:34,750 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:35:44,038 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.184}
+2021-06-19 21:36:53,964 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.23}
+2021-06-19 21:37:59,196 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.158}
+2021-06-19 21:39:10,600 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.158}
+2021-06-19 21:40:22,345 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:41:33,452 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:42:43,923 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:43:52,880 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:44:58,630 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:46:05,902 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:47:16,624 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:48:25,793 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:49:31,557 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:50:37,543 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:51:46,542 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:52:56,328 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.151}
+2021-06-19 21:54:01,263 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.181}
+2021-06-19 21:55:12,857 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.181}
+2021-06-19 21:56:23,281 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.181}
+2021-06-19 21:57:29,387 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.181}
+2021-06-19 21:58:39,451 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.165}
+2021-06-19 21:59:48,608 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.165}
+2021-06-19 22:00:54,116 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.165}
+2021-06-19 22:02:05,639 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.129}
+2021-06-19 22:03:14,973 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.129}
+2021-06-19 22:04:26,742 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.129}
+2021-06-19 22:05:38,765 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.129}
+2021-06-19 22:06:44,189 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.161}
+2021-06-19 22:07:50,914 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.161}
+2021-06-19 22:08:59,147 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.161}
+2021-06-19 22:10:09,562 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.185}
+2021-06-19 22:11:15,728 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.185}
+2021-06-19 22:12:24,120 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.173}
+2021-06-19 22:13:32,025 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:14:43,297 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:15:50,229 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.291, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:16:57,040 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:18:11,503 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:19:22,984 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:20:34,756 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:21:49,905 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:23:01,824 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:24:14,313 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:25:23,694 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:26:30,799 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:27:41,606 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:28:46,817 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:29:57,679 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:31:06,085 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:32:22,454 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.201, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:33:33,931 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:34:42,389 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:35:51,639 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:36:56,427 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:38:09,892 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:39:17,840 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.179}
+2021-06-19 22:40:25,646 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:41:37,478 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:42:44,580 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:43:57,509 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:45:04,415 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:46:14,832 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:47:25,921 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:48:31,483 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.383}
+2021-06-19 22:50:33,788 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:99] - INFO: 重启中...
+2021-06-19 22:50:55,577 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:96] - INFO:  🚥  ⚒⚒   
+2021-06-19 22:51:14,343 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:52:25,569 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:53:35,891 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:54:47,025 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:55:59,166 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:57:07,524 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:58:15,556 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 22:59:22,078 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:00:30,006 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:01:42,336 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:02:54,761 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:04:06,648 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:05:11,967 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:06:17,865 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:07:26,192 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:08:35,672 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:09:42,011 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:10:47,809 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:11:58,078 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:13:07,906 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:14:20,577 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.295, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:15:25,536 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:16:37,156 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:17:42,925 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:18:48,492 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:19:56,726 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:21:05,214 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:22:13,321 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:23:22,165 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:24:35,156 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:25:47,628 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:26:55,600 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:28:04,314 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:29:10,903 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:30:19,508 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:31:31,185 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:32:41,751 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:33:47,325 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:34:53,876 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.203, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:35:58,901 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:37:07,682 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:38:13,779 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:39:21,583 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:40:28,504 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:41:38,413 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:42:47,443 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:43:57,018 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:45:08,393 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:46:21,157 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:47:30,736 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:48:38,421 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:49:48,163 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:50:59,766 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:52:06,954 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.293, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:53:16,314 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:54:26,872 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:55:37,609 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.292, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:56:44,385 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:57:52,620 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}
+2021-06-19 23:59:00,980 - /Users/w/Documents/Github/python_tool/coinTool/pitman.py[line:48] - INFO: {'TDOG': 0.202, 'DOG': 0.294, 'RATIO_DOG': 0.69, 'BTCST': 25.431}

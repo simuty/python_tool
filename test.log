@@ -1,0 +1,45 @@
+2021-06-10 18:36:33,378 - coinTool/testlog.py[line:19] - DEBUG: debug
+2021-06-10 18:36:33,379 - coinTool/testlog.py[line:20] - INFO: info
+2021-06-10 18:36:33,380 - coinTool/testlog.py[line:21] - WARNING: 警告
+2021-06-10 18:36:33,381 - coinTool/testlog.py[line:22] - ERROR: 报错
+2021-06-10 18:36:33,383 - coinTool/testlog.py[line:23] - CRITICAL: 严重
+2021-06-10 18:36:33,385 - coinTool/testlog.py[line:25] - INFO: Houston, we have a interesting problem
+NoneType: None
+2021-06-10 18:36:33,387 - coinTool/testlog.py[line:26] - INFO: {'ss': 1}
+2021-06-10 18:36:33,388 - coinTool/testlog.py[line:31] - INFO: {'key': '1'}
+2021-06-10 18:36:34,336 - coinTool/testlog.py[line:19] - DEBUG: debug
+2021-06-10 18:36:34,336 - coinTool/testlog.py[line:20] - INFO: info
+2021-06-10 18:36:34,336 - coinTool/testlog.py[line:21] - WARNING: 警告
+2021-06-10 18:36:34,337 - coinTool/testlog.py[line:22] - ERROR: 报错
+2021-06-10 18:36:34,337 - coinTool/testlog.py[line:23] - CRITICAL: 严重
+2021-06-10 18:36:34,337 - coinTool/testlog.py[line:25] - INFO: Houston, we have a interesting problem
+NoneType: None
+2021-06-10 18:36:34,337 - coinTool/testlog.py[line:26] - INFO: {'ss': 1}
+2021-06-10 18:36:34,337 - coinTool/testlog.py[line:31] - INFO: {'key': '1'}
+2021-06-10 18:36:35,240 - coinTool/testlog.py[line:19] - DEBUG: debug
+2021-06-10 18:36:35,240 - coinTool/testlog.py[line:20] - INFO: info
+2021-06-10 18:36:35,240 - coinTool/testlog.py[line:21] - WARNING: 警告
+2021-06-10 18:36:35,241 - coinTool/testlog.py[line:22] - ERROR: 报错
+2021-06-10 18:36:35,241 - coinTool/testlog.py[line:23] - CRITICAL: 严重
+2021-06-10 18:36:35,241 - coinTool/testlog.py[line:25] - INFO: Houston, we have a interesting problem
+NoneType: None
+2021-06-10 18:36:35,241 - coinTool/testlog.py[line:26] - INFO: {'ss': 1}
+2021-06-10 18:36:35,241 - coinTool/testlog.py[line:31] - INFO: {'key': '1'}
+2021-06-10 18:36:35,901 - coinTool/testlog.py[line:19] - DEBUG: debug
+2021-06-10 18:36:35,901 - coinTool/testlog.py[line:20] - INFO: info
+2021-06-10 18:36:35,901 - coinTool/testlog.py[line:21] - WARNING: 警告
+2021-06-10 18:36:35,901 - coinTool/testlog.py[line:22] - ERROR: 报错
+2021-06-10 18:36:35,901 - coinTool/testlog.py[line:23] - CRITICAL: 严重
+2021-06-10 18:36:35,902 - coinTool/testlog.py[line:25] - INFO: Houston, we have a interesting problem
+NoneType: None
+2021-06-10 18:36:35,902 - coinTool/testlog.py[line:26] - INFO: {'ss': 1}
+2021-06-10 18:36:35,902 - coinTool/testlog.py[line:31] - INFO: {'key': '1'}
+2021-06-10 18:36:36,616 - coinTool/testlog.py[line:19] - DEBUG: debug
+2021-06-10 18:36:36,616 - coinTool/testlog.py[line:20] - INFO: info
+2021-06-10 18:36:36,616 - coinTool/testlog.py[line:21] - WARNING: 警告
+2021-06-10 18:36:36,616 - coinTool/testlog.py[line:22] - ERROR: 报错
+2021-06-10 18:36:36,617 - coinTool/testlog.py[line:23] - CRITICAL: 严重
+2021-06-10 18:36:36,617 - coinTool/testlog.py[line:25] - INFO: Houston, we have a interesting problem
+NoneType: None
+2021-06-10 18:36:36,617 - coinTool/testlog.py[line:26] - INFO: {'ss': 1}
+2021-06-10 18:36:36,617 - coinTool/testlog.py[line:31] - INFO: {'key': '1'}
