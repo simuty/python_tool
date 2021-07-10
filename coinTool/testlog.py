@@ -1,11 +1,7 @@
 '''
 Author: simuty
 Date: 2021-06-07 17:43:59
-<<<<<<< HEAD
-LastEditTime: 2021-06-10 18:36:27
-=======
-LastEditTime: 2021-06-19 17:08:25
->>>>>>> ea51fae3b7de1376f29a01461117180c72e6aa71
+LastEditTime: 2021-07-03 17:04:40
 LastEditors: Please set LastEditors
 Description: 
 '''

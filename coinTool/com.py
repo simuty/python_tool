@@ -142,9 +142,9 @@ def post_ifttt_webhook(value1, value2, event=EVENT_NAME):
 # {
 #   "BTCST": 25.433
 # }
-coinType = dict[str, str]
-returnType = dict[str, float]
-def get_coin_price(args: coinType) -> returnType:
+# coinType = dict[str, str]
+# returnType = dict[str, float]
+def get_coin_price(args):
     end = int(time.time())
     start = end - 441660
     req_list = []

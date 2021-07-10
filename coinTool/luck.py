@@ -72,7 +72,7 @@ def start():
             post_ifttt_webhook("©© BUNNY 🐰 ", format_coin(obj))
 
         # 做波段，争取搞到1w个
-        if obj['BNBTC'] < 0.17 or obj['BNBTC'] > 0.45:
+        if obj['BNBTC'] < 0.17 or obj['BNBTC'] > 0.4:
             post_ifttt_webhook("©© 🌊 BNBTC ", format_coin(obj))
 
         minute = datetime.now().minute
