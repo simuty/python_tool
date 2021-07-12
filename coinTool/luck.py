@@ -17,11 +17,12 @@ monkey.patch_all()
 
 
 LOG_PATH = "logs/luck.log"
+W_LOG_PATH = "w_logs/luck.log"
 # 间隔
-INTERVAL = 50
+INTERVAL = 0
 
 BITCOIN_PRICE_THRESHOLD: int = 15000
-PRICE_RATIO_DOWN = 0.5
+PRICE_RATIO_DOWN = 0.35
 PRICE_RATIO_UP = 0.92
 
 REQ_TIMEOUT = 55
@@ -68,11 +69,12 @@ def start():
             post_ifttt_webhook("©© TBTC ⚠️⚠️", format_coin(obj))
 
         # 挖矿
-        if obj['BUNNY'] < 12:
+        if obj['BUNNY'] < 16:
             post_ifttt_webhook("©© BUNNY 🐰 ", format_coin(obj))
 
         # 做波段，争取搞到1w个
-        if obj['BNBTC'] < 0.17 or obj['BNBTC'] > 0.45:
+        # 100 -> 500 200-->1000 300 --> 1500 450 ---> 2250 
+        if obj['BNBTC'] < 0.16 or obj['BNBTC'] > 0.22:
             post_ifttt_webhook("©© 🌊 BNBTC ", format_coin(obj))
 
         minute = datetime.now().minute
@@ -97,5 +99,6 @@ def main():
 
 
 if __name__ == "__main__":
-    logger = Logger(LOG_PATH, level="debug").logger
+    log_path =  W_LOG_PATH if len(sys.argv) > 1 else LOG_PATH
+    logger = Logger(log_path, level="debug").logger
     main()
