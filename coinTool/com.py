@@ -59,14 +59,14 @@ LOG_PATH = "logs/net.log"
 
 def _get_price(url, key):
     # 随机从列表中选择IP、Header
-    # proxy = random.choice(proxy_list)
+    proxy = random.choice(proxy_list)
     header = random.choice(my_headers)
     # msg = "URLError: {}-{}\n{}"
-
+    print("url--->", url)
     try:
         # 基于选择的IP构建连接
-        urlhandle = urllib.request.ProxyHandler()
-        # urlhandle = urllib.request.ProxyHandler({"http": proxy})
+        # urlhandle = urllib.request.ProxyHandler()
+        urlhandle = urllib.request.ProxyHandler({"http": proxy})
         opener = urllib.request.build_opener(urlhandle)
         urllib.request.install_opener(opener)
         # 用urllib2库链接网络图像
@@ -75,7 +75,8 @@ def _get_price(url, key):
         req.add_header("User-Agent", header)
 
         # 打开网络图像文件句柄
-        res = urllib.request.urlopen(req, timeout=REQ_TIMEOUT)
+        # res = urllib.request.urlopen(req, timeout=REQ_TIMEOUT)
+        res = urllib.request.urlopen(req)
         data = res.read()
         encoding = res.info().get_content_charset("utf-8")
         result = json.loads(data.decode(encoding))
@@ -149,6 +150,7 @@ def get_coin_price(args):
     start = end - 441660
     req_list = []
     for key, value in args.items():
+        print("111---->", key, value)
         item = gevent.spawn(_get_price,
                             BITCOIN_API_URL.format(value, start, end), key)
         req_list.append(item)
