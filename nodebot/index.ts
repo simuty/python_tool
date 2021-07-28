@@ -2,7 +2,9 @@
 import { getPrice } from './common/net';
 import { sleep } from './common/fun';
 import { sendIfttt } from './common/ifttt';
+import { RATIO_UP, RATIO_DOWN } from './common/config';
 import * as _ from "lodash";
+import moment from 'moment';
 
 
 const tokenList = [
@@ -13,36 +15,99 @@ const tokenList = [
 
 ]
 
+interface TYPE_TOKENINFO { [key: string]: string }
+interface TYPE_ITEM { price: number, timestamp: number  }
 
 async function start() {
 
-    // while (true) {
-    const argsList = [];
-    tokenList.map(item => argsList.push(getPrice(item)));
-    const resultList = await Promise.all(argsList)
-    console.log(resultList);
-    // key: token名字 大写
-    // value: 保留三位
-    let tokenInfo: { [key: string]: string } = {}
-    for (const iterator of resultList) {
-        const { symbol, price } = iterator
-        const name = _.toUpper(symbol);
-        tokenInfo[name] = price
+    while (true) {
+        const argsList: any[] = [];
+        tokenList.map(item => argsList.push(getPrice(item)));
+        const resultList = await Promise.all(argsList)
+        // console.log(resultList);
+        // key: token名字 大写
+        // value: 价格
+        let tokenInfo: TYPE_TOKENINFO = {}
+        for (const iterator of resultList) {
+            const { symbol, price } = iterator
+            const name = _.toUpper(symbol);
+            tokenInfo[name] = price
+        }
+
+        console.log(tokenInfo);
+
+
+        // mbox(tokenInfo)
+        // await sleep(10)
+        // MBOX > 2 ||  >3
+        // tokenInfo["MBOX"] > 2
+
+    }
+}
+
+
+
+// mbox
+let mboxList: any[] = [{ price: 1.1, timestamp: 1627483538 }];
+
+
+
+function mbox(tokenInfo: TYPE_TOKENINFO) {
+    const price: number = _.floor(Number(tokenInfo["MBOX"]), 8);
+    const item = {
+        price, 
+        timestamp: moment().unix()
+    }
+    mboxList.push(item);
+    // 基数
+    const judgePrice = price > 0;
+    const len = 1;
+    console.log(mboxList);
+    // const judegeLenth = mboxList.length > 4
+
+    // 1. 达到基准线，
+    if (judgePrice) {
+        // 2. 先推送三次
+        if (mboxList.length < 3) {
+            handleNotfication(price, 11);
+        } else {
+            // 3。 数组最后一个与第一个计算 涨跌 百分比
+            const [first, last] = [_.first(mboxList), _.last(mboxList)];
+            //  与第一个对比，增长百分比
+            const ratio = _.floor(_.divide((last.price - first.price), first.price), 3) * 100;
+            console.log("----->>", last.price, first.price, ratio);
+            if (ratio > RATIO_UP || ratio < RATIO_DOWN) {
+                // 涨跌幅度过大，则提醒⏰ & 清空数组 & 计算间隔时间
+                mboxList = [];
+                const diffHour = moment(last.timestamp).diff(moment(first.timestamp), 'hours')
+                console.log("======>>>>>> ", diffHour);
+                handleNotfication(last.price, diffHour, ratio);
+
+            }
+        }
     }
 
-    // MBOX > 2 ||  >3
-    // tokenInfo["MBOX"] > 2
-
-    // }
 }
+
+
+async function handleNotfication(price: number, time: number, ratio = 0) {
+    const one = ratio === 0 ? "" : ratio > 0 ? `📈 ${ratio}% 间隔：${time}` : `📉 ${ratio}% 间隔：${time}`;
+    const two = `💵 ${price} USDT`;
+    // const three = ``
+    const msg = one ? `${one}\n${two}` : `${two}`;
+    sendIfttt("起飞", msg);
+}
+
 
 (async () => {
 
     try {
-        sendIfttt("起飞", "🛫️");
+        const msg = `
+⛔️ Decreased 3.73% in 6.1 hour(s)\n💵 Price - 16.92800000 USDT\n⏱️ [28 Jul] - 08:41:48 UTC
+                `
+        sendIfttt("起飞", msg);
         await start();
     } catch (error) {
-        await sleep(10);
         await start();
     }
 

@@ -1,6 +1,6 @@
 
 import got from 'got'
-import * as moment from 'moment';
+import moment from 'moment';
 
 const EVENT_NAME = "buy_coin"
 // doc: https://ifttt.com/maker_webhooks

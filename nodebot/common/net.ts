@@ -20,7 +20,7 @@ interface Data {
 // https://github.com/pancakeswap/pancake-info-api
 const PANCAKESWAP_URL = "https://api.pancakeswap.info/api/v2/tokens/"
 
-export async function getPrice(token: string): Promise<Data> {
+export async function getPrice(token: string) {
     try {
         const url = PANCAKESWAP_URL + token;
         const result: RESULT = await got(url, {
@@ -41,6 +41,7 @@ export async function getPrice(token: string): Promise<Data> {
     }
 }
 
+// getPrice("0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82")
 
 // async function getPrice(token: string) {
 //     try {
