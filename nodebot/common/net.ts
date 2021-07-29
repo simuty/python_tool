@@ -1,6 +1,6 @@
 
 import got from 'got'
-import { HOST, PORT } from './config'
+import { HOST, PORT } from './const'
 const tunnel = require('tunnel');
 import { logger } from "./log4";
 

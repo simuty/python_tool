@@ -1,6 +1,6 @@
 
 import got from 'got'
-import * as moment from 'moment';
+import moment from 'moment';
 
 const EVENT_NAME = "buy_coin"
 // doc: https://ifttt.com/maker_webhooks
@@ -10,6 +10,7 @@ export async function sendIfttt(title: string, value: string) {
     const top = title + " ⏰ " + moment().format("YYYY-MM-DD HH-MM")
     const args = { value1: top, value2: value }
     const result = await got.post(IFTTT_WEBHOOKS_URL, { json: args })
+    console.log("00000---------");
     // console.log(result);
 }
 1627551714 - 1627483538 

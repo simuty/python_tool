@@ -1,19 +1,29 @@
-// proxy
-export const HOST = "localhost"
-export const PORT = "7890"
 
-// 获取token价格的时间间隔
-export const INTERVAL_GET_PRICE = 30
+interface TYPE_CONFIG {
+    [key: string]: {
+        key: string;
+        token: string;
+        // 监控价格; [1, 5, 10] ==> 依次以数组第一个为基准
+        basePrices: number[];
+        // 用于计算涨跌幅度
+        list: number[];
+        // alter: number[];
+    }
+}
+// todo 涨跌比例、通知时间其余的也可以单独配置
 
-/* ---------------- judge ---------------- */
-// 数组长度，避免重复推送; 达到阀值连续通知5次之后，判断：比例、时间间隔
-export const BASE_ARRAY_LENGTH = 5
-// 涨跌比例
-export const RATIO_UP = 10
-export const RATIO_DOWN = -10
-// 间隔时间
-export const INTERVAL_MINTUS = 0.5
-
-
-
-
+// ! 只需要在此添加token, 监控价格
+export let TOKEN_CONFIG: TYPE_CONFIG = {
+    MBOX: {
+        key: "MBOX",
+        token: "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
+        basePrices: [1, 2, 3],
+        list: []
+    },
+    BTCST: {
+        key: "BTCST",
+        token: "0x78650b139471520656b9e7aa7a5e9276814a38e9",
+        basePrices: [40, 50, 60],
+        list: []
+    }
+}

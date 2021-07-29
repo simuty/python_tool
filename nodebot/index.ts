@@ -1,106 +1,79 @@
 
 import { getPrice } from './common/net';
+import { TOKEN_CONFIG } from './common/config';
 import { sleep } from './common/fun';
 import { sendIfttt } from './common/ifttt';
-import { RATIO_UP, RATIO_DOWN, INTERVAL_MINTUS, BASE_ARRAY_LENGTH } from './common/config';
+import { RATIO_UP, RATIO_DOWN, REMIND_MINTUS, ALTER_TIME, SLEEP_TIME } from './common/const';
 import * as _ from "lodash";
-import * as moment from 'moment';
+import moment from 'moment';
 
-
-const tokenList = [
-    // Cake
-    "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-    // Mbox
-    "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377"
-
-]
-
-interface TYPE_TOKENINFO { [key: string]: string }
-interface TYPE_ITEM { price: number, timestamp: number  }
+interface TYPE_TOKEN_API { name: string, symbol: string, price: string, price_BNB: string }
 
 async function start() {
-
     while (true) {
         const argsList: any[] = [];
-        tokenList.map(item => argsList.push(getPrice(item)));
-        const resultList = await Promise.all(argsList)
-        // console.log(resultList);
-        // key: token名字 大写
-        // value: 价格
-        let tokenInfo: TYPE_TOKENINFO = {}
+        _.keys(TOKEN_CONFIG).map(item => argsList.push(getPrice(TOKEN_CONFIG[item]["token"])))
+        const resultList: TYPE_TOKEN_API[] = await Promise.all(argsList)
+        console.log(resultList);
         for (const iterator of resultList) {
-            const { symbol, price } = iterator
-            const name = _.toUpper(symbol);
-            tokenInfo[name] = price
-        }
+            const apiTokenNmae = _.toUpper(iterator.symbol);
+            const apiTokenPrice = _.floor(Number(iterator.price), 5);
+            const { basePrices, list } = TOKEN_CONFIG[apiTokenNmae];
+            const judgeList = TOKEN_CONFIG[apiTokenNmae].list;
+            const priceList = TOKEN_CONFIG[apiTokenNmae].basePrices;
+            TOKEN_CONFIG[apiTokenNmae].list = _.concat(list, apiTokenPrice);
 
-        console.log(tokenInfo);
-
-
-        mbox(tokenInfo)
-        // await sleep(10)
-        // MBOX > 2 ||  >3
-        // tokenInfo["MBOX"] > 2
-
-    }
-}
-
-
-
-// mbox
-let mboxList: any[] = [{ price: 1.1, timestamp: 1627483538 }];
-
-
-const PRICE_MBOX = [2, 3];
-function mbox(tokenInfo: TYPE_TOKENINFO) {
-    const price: number = _.floor(Number(tokenInfo["MBOX"]), 8);
-    const item = {
-        price, 
-        timestamp: moment().unix()
-    }
-    mboxList.push(item);
-    // 基数
-    const judgePrice = price > 0;
-    console.log(mboxList);
-
-    // 1. 达到基准
-    if (judgePrice) {
-        // 2. 先推送三次
-        if (mboxList.length < BASE_ARRAY_LENGTH) {
-            handleNotfication(price, 11);
-        } else {
-            // 3。 数组最后一个与第一个计算 涨跌 百分比
-            const [first, last] = [_.first(mboxList), _.last(mboxList)];
-            //  与第一个对比，增长百分比
-            const ratio = _.floor(_.divide((last.price - first.price), first.price), 3) * 100;
-            const diffMintus = (last.timestamp - first.timestamp) / 60;
-            if (ratio > RATIO_UP || ratio < RATIO_DOWN || diffMintus > INTERVAL_MINTUS) {
-                // 涨跌幅度过大，则提醒⏰ & 保留最新x个 & 计算间隔时间
-                mboxList = _.takeRight(mboxList, BASE_ARRAY_LENGTH)
-                handleNotfication(last.price, diffMintus, ratio);
+            // todo 
+            const upPrice = apiTokenPrice > basePrices[0];
+            // 1. 过阀值 连续推送4次
+            if (upPrice) {
+                // 1.1 重置监控价格基数
+                TOKEN_CONFIG[apiTokenNmae].basePrices = priceList.length > 1 ? _.takeRight(priceList, priceList.length - 1) : priceList;
+                // const repeat = _.fill(Array(ALTER_TIME), handleNotfication(apiTokenNmae, apiTokenPrice));
+                // let repeatList: any[] = [];
+                // Array(ALTER_TIME).map(() => repeatList.push(handleNotfication(apiTokenNmae, apiTokenPrice)))
+                // const result =  await Promise.all(repeatList)
+                // console.log("======>>>>;;;; ", result);
+                let i = ALTER_TIME;
+                while (i > 0) {
+                    await handleNotfication(apiTokenNmae, apiTokenPrice);
+                    i--;
+                }
+            }
+            // 2. 涨跌百分比 > x 
+            const [first = 0, last = 0] = [_.first(judgeList), _.last(judgeList)];
+            const ratio = _.floor(_.divide((last - first), first), 3) * 100;
+            if (ratio > RATIO_UP || ratio < RATIO_DOWN) {
+                // 涨跌幅度过大，则提醒⏰ & 保留最新x个
+                handleNotfication(apiTokenNmae, apiTokenPrice, ratio);
+                TOKEN_CONFIG[apiTokenNmae].list = [];
+            }
+            // 3. 数组长度过长，清空重新计算
+            if (judgeList.length > 1000) {
+                TOKEN_CONFIG[apiTokenNmae].list = []
+            }
+            // todo 4: 每30分钟推送一次
+            const minutes = moment().minutes();
+            if (_.includes(REMIND_MINTUS, minutes)) {
+                handleNotfication(apiTokenNmae, apiTokenPrice);
             }
         }
+        // console.log("111====>>>", TOKEN_CONFIG);
+        await sleep(SLEEP_TIME);
     }
-
 }
 
-
-async function handleNotfication(price: number, time: number, ratio = 0) {
-    const one = ratio === 0 ? "" : ratio > 0 ? `📈 ${ratio}% 间隔：${time}` : `📉 ${ratio}% 间隔：${time}`;
-    const two = `💵 ${price} USDT`;
-    // const three = ``
-    const msg = one ? `${one}\n${two}` : `${two}`;
-    sendIfttt("起飞", msg);
+async function handleNotfication(token: string, price: number, ratio = 0) {
+    const one = ratio === 0 ? "" : ratio > 0 ? `📈 ${token} ${ratio}% ` : `📉 ${token} ${ratio}%`;
+    const two = `💵 ${price}`;
+    await sendIfttt(one, two);
 }
 
 
 (async () => {
 
     try {
-        const msg = `
-⛔️ Decreased 3.73% in 6.1 hour(s)\n💵 Price - 16.92800000 USDT\n⏱️ [28 Jul] - 08:41:48 UTC
-                `
-        // sendIfttt("起飞", msg);
+        sendIfttt("🛫️", "🛫️🛫️🛫️🛫️");
         await start();
     } catch (error) {
         await start();
