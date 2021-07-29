@@ -17,7 +17,7 @@ export let TOKEN_CONFIG: TYPE_CONFIG = {
     MBOX: {
         key: "MBOX",
         token: "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
-        basePrices: [1, 2, 3],
+        basePrices: [2, 2.1, 2.4],
         list: []
     },
     BTCST: {

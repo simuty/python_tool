@@ -1,5 +1,7 @@
 
 import got from 'got'
+import moment from 'moment';
+import * as _ from 'lodash';
 import { HOST, PORT } from './const'
 const tunnel = require('tunnel');
 import { logger } from "./log4";
@@ -33,11 +35,12 @@ export async function getPrice(token: string) {
                 })
             }
         }).json()
-        const { symbol } = result.data;
+        const { symbol, price } = result.data;
         logger(symbol).info(JSON.stringify(result));
+        console.log(JSON.stringify({time: moment().format('YYYY-MM-DD HH:MM:SS'), symbol, price: _.floor(Number(price), 3)}));
         return result.data;
     } catch (error) {
-
+        logger("error").error(JSON.stringify(error));
     }
 }
 

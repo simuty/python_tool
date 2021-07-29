@@ -14,7 +14,7 @@ async function start() {
         const argsList: any[] = [];
         _.keys(TOKEN_CONFIG).map(item => argsList.push(getPrice(TOKEN_CONFIG[item]["token"])))
         const resultList: TYPE_TOKEN_API[] = await Promise.all(argsList)
-        console.log(resultList);
+        // console.log(resultList);
         for (const iterator of resultList) {
             const apiTokenNmae = _.toUpper(iterator.symbol);
             const apiTokenPrice = _.floor(Number(iterator.price), 5);
