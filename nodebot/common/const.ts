@@ -1,4 +1,4 @@
-// proxy
+// ! 代理配置
 export const HOST = "localhost"
 export const PORT = "7890"
 
