@@ -63,7 +63,7 @@ function formatTgMsg(args: TYPE_TG_MSG) {
 }
 
 
-sendTg()
+formatTgMsg()
 
 
 
