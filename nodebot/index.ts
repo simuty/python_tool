@@ -10,13 +10,11 @@ import moment from 'moment';
 interface TYPE_TOKEN_API { name: string, symbol: string, price: string, price_BNB: string }
 
 async function start() {
-    let once = true;
     while (true) {
         const argsList: any[] = [];
         _.keys(TOKEN_CONFIG).map(item => argsList.push(getPrice(TOKEN_CONFIG[item]["token"])))
         const resultList: TYPE_TOKEN_API[] = await Promise.all(argsList);
-
-        console.log(resultList);
+        console.log("<<<<===========>>");
         for (const iterator of resultList) {
             const apiTokenNmae = _.toUpper(iterator.symbol);
             const apiTokenPrice = _.floor(Number(iterator.price), 5);
@@ -25,7 +23,6 @@ async function start() {
             const priceList = TOKEN_CONFIG[apiTokenNmae].basePrices;
             const alterList = TOKEN_CONFIG[apiTokenNmae].alter;
             TOKEN_CONFIG[apiTokenNmae].list = _.concat(list, apiTokenPrice);
-
             // todo 
             const upPrice = apiTokenPrice > basePrices[0];
             // 1. 过阀值 连续推送4次
@@ -74,12 +71,15 @@ async function start() {
 async function handleNotfication(token: string, price: number, ratio = 0) {
     const one = ratio === 0 ? `${token}` : ratio > 0 ? `📈 ${token} ${ratio}% ` : `📉 ${token} ${ratio}%`;
     const two = `💵 ${price}`;
-    await sendIfttt(one, two);
+    try {
+        await sendIfttt(one, two);
+    } catch (error) {
+        throw new Error("推送出现错误")
+    }
 }
 
 
 (async () => {
-
     try {
         sendIfttt("🛫️", "🛫️🛫️🛫️🛫️");
         await start();

@@ -38,7 +38,7 @@ export async function getPrice(token: string) {
         }).json()
         const { symbol, price } = result.data;
         logger(symbol).info(JSON.stringify(result));
-        console.log(JSON.stringify({time: moment().format('YYYY-MM-DD HH:MM:SS'), symbol, price: _.floor(Number(price), 3)}));
+        console.log(JSON.stringify({time: moment().format('YYYY-MM-DD hh:mm:ss'), symbol, price: _.floor(Number(price), 3)}));
         return result.data;
     } catch (error) {
         logger("error").error(JSON.stringify(error));
