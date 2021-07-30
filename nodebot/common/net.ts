@@ -1,6 +1,6 @@
 
 import got from 'got'
-import moment from 'moment';
+const moment = require('moment');
 import * as _ from 'lodash';
 import { HOST, PORT } from './const'
 const tunnel = require('tunnel');
@@ -18,7 +18,6 @@ interface Data {
     price: string;
     price_BNB: string;
 }
-
 
 // https://github.com/pancakeswap/pancake-info-api
 const PANCAKESWAP_URL = "https://api.pancakeswap.info/api/v2/tokens/"

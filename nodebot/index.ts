@@ -2,10 +2,10 @@
 import { getPrice } from './common/net';
 import { TOKEN_CONFIG } from './common/config';
 import { sleep } from './common/fun';
-import { sendIfttt } from './common/ifttt';
+import { sendIfttt } from './common/notification';
 import { RATIO_UP, RATIO_DOWN, REMIND_MINTUS, ALTER_TIME, SLEEP_TIME } from './common/const';
 import * as _ from "lodash";
-import moment from 'moment';
+const moment = require('moment');
 
 interface TYPE_TOKEN_API { name: string, symbol: string, price: string, price_BNB: string }
 
@@ -42,7 +42,8 @@ async function start() {
             }
             // 2. 涨跌百分比 > x 
             const [first = 0, last = 0] = [_.first(judgeList), _.last(judgeList)];
-            const ratio = _.floor(_.divide((last - first), first), 3) * 100;
+            const ratio = _.multiply(_.floor((last - first) / first, 3), 100);
+
             if (ratio > RATIO_UP || ratio < RATIO_DOWN) {
                 // 涨跌幅度过大，则提醒⏰ & 保留最新x个
                 handleNotfication(apiTokenNmae, apiTokenPrice, ratio);
@@ -55,11 +56,11 @@ async function start() {
             // todo 4: 每30分钟推送一次
             const minutes = moment().minutes();
             const isIn = _.includes(REMIND_MINTUS, minutes)
-            if(alterList.length < 2 && isIn) {
+            if(alterList.length < 1 && isIn) {
                     TOKEN_CONFIG[apiTokenNmae].alter = _.concat(alterList, apiTokenPrice);
                     handleNotfication(apiTokenNmae, apiTokenPrice);
             }
-            if(alterList.length > 2 && !isIn) {
+            if(alterList.length > 1 && !isIn) {
                 TOKEN_CONFIG[apiTokenNmae].alter = []
             }
         }
