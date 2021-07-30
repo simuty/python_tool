@@ -41,8 +41,9 @@ export async function getPrice(token: string) {
         return result.data;
     } catch (error) {
         logger("error").error(JSON.stringify(error));
-        await sleep(10);
-        return [];
+        console.log("======>>>", error);
+        await sleep(1);
+        return null;
     }
 }
 

@@ -2,7 +2,7 @@
 import { getPrice } from './common/net';
 import { TOKEN_CONFIG } from './common/config';
 import { sleep } from './common/fun';
-import { sendIfttt } from './common/notification';
+import { sendIfttt, sendTg } from './common/notification';
 import { RATIO_UP, RATIO_DOWN, REMIND_MINTUS, ALTER_TIME, SLEEP_TIME } from './common/const';
 import * as _ from "lodash";
 const moment = require('moment');
@@ -16,9 +16,10 @@ async function start() {
         const resultList: TYPE_TOKEN_API[] = await Promise.all(argsList);
         console.log("<<<<===========>>");
         for (const iterator of resultList) {
+            // const {} = iterator;
             const apiTokenNmae = _.toUpper(iterator.symbol);
             const apiTokenPrice = _.floor(Number(iterator.price), 5);
-            const { basePrices, list, alter } = TOKEN_CONFIG[apiTokenNmae];
+            const { basePrices, list } = TOKEN_CONFIG[apiTokenNmae];
             const judgeList = TOKEN_CONFIG[apiTokenNmae].list;
             const priceList = TOKEN_CONFIG[apiTokenNmae].basePrices;
             const alterList = TOKEN_CONFIG[apiTokenNmae].alter;
@@ -69,11 +70,21 @@ async function start() {
     }
 }
 
-async function handleNotfication(token: string, price: number, ratio = 0) {
-    const one = ratio === 0 ? `${token}` : ratio > 0 ? `📈 ${token} ${ratio}% ` : `📉 ${token} ${ratio}%`;
-    const two = `💵 ${price}`;
+/**
+ * 
+ * @param key token name 
+ * @param price 价格
+ * @param ratio 涨跌比例
+ */
+async function handleNotfication(tokenName: string, price: number, ratio = 0) {
+    const title = ratio === 0 ? `${tokenName}` : ratio > 0 ? `📈 ${tokenName} ${ratio}% ` : `📉 ${tokenName} ${ratio}%`;
+    const content = `💵 ${price}`;
+    const token = TOKEN_CONFIG[tokenName]["token"];
     try {
-        await sendIfttt(one, two);
+        await Promise.all([
+            sendIfttt(title, content),
+            sendTg({key: title, token, price})
+        ])
     } catch (error) {
         throw new Error("推送出现错误")
     }

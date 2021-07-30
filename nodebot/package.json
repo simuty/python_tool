@@ -18,7 +18,6 @@
     "log4js": "^6.3.0",
     "moment": "^2.29.1",
     "node-telegram-bot-api": "^0.54.0",
-    "request": "^2.88.2",
     "socks5-https-client": "^1.2.1",
     "ts-node": "^10.1.0",
     "tunnel": "0.0.6",

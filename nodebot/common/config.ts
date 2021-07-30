@@ -17,7 +17,7 @@ export let TOKEN_CONFIG: TYPE_CONFIG = {
     MBOX: {
         key: "MBOX",
         token: "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
-        basePrices: [2, 2.1, 2.4],
+        basePrices: [2, 2.1],
         list: [],
         alter: []
     },
@@ -31,7 +31,7 @@ export let TOKEN_CONFIG: TYPE_CONFIG = {
     DNXC: {
         key: "DNXC",
         token: "0x3c1748d647e6a56b37b66fcd2b5626d0461d3aa0",
-        basePrices: [0.65, 0.7, 0.8, 1],
+        basePrices: [0.65, 0.7, 0.8],
         list: [],
         alter: []
     }
