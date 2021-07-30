@@ -5,6 +5,7 @@ import * as _ from 'lodash';
 import { HOST, PORT } from './const'
 const tunnel = require('tunnel');
 import { logger } from "./log4";
+import { sleep } from './fun';
 
 
 interface RESULT {
@@ -41,6 +42,8 @@ export async function getPrice(token: string) {
         return result.data;
     } catch (error) {
         logger("error").error(JSON.stringify(error));
+        await sleep(10);
+        return [];
     }
 }
 
