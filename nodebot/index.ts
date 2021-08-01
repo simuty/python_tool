@@ -48,7 +48,7 @@ async function start() {
             if (ratio > RATIO_UP || ratio < RATIO_DOWN) {
                 // 涨跌幅度过大，则提醒⏰ & 保留最新x个
                 handleNotfication(apiTokenNmae, apiTokenPrice, ratio);
-                TOKEN_CONFIG[apiTokenNmae].list = [];
+                TOKEN_CONFIG[apiTokenNmae].list = _.takeRight(judgeList, 1);
             }
             // 3. 数组长度过长，清空重新计算
             if (judgeList.length > 1000) {
